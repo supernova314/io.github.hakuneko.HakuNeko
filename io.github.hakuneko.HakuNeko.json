@@ -28,6 +28,7 @@
 				"rm -f control.tar.gz data.tar.xz debian-binary",
 				"cp -r usr/* /app",
 				"chmod -R a-s,go+rX,go-w /app/lib/hakuneko-desktop/hakuneko",
+				"sed -i 's|Exec=.*|Exec=hakuneko-desktop %U|' /app/share/applications/hakuneko-desktop.desktop",
 				"install hakuneko.sh /app/bin/hakuneko",
 				"install -Dm644 io.github.hakuneko.HakuNeko.metainfo.xml /app/share/appdata/io.github.hakuneko.HakuNeko.metainfo.xml"
 			],
