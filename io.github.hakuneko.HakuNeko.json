@@ -1,9 +1,9 @@
 {
 	"app-id": "io.github.hakuneko.HakuNeko",
 	"base": "org.electronjs.Electron2.BaseApp",
-	"base-version": "21.08",
+	"base-version": "23.08",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "21.08",
+	"runtime-version": "23.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "hakuneko",
 	"separate-locales": false,
@@ -35,15 +35,15 @@
 			"sources": [
 				{
 					"type": "file",
-					"url": "https://github.com/manga-download/hakuneko/releases/download/v6.1.7/hakuneko-desktop_6.1.7_linux_amd64.deb",
+					"url": "https://github.com/manga-download/hakuneko/releases/download/nightly-20200705.1/hakuneko-desktop_8.3.4_linux_amd64.deb",
 					"only-arches": [ "x86_64" ],
-					"sha256": "06bb17d7a06bb0601053eaaf423f9176f06ff3636cc43ffc024438e1962dcd02"
+					"sha256": "48e9a77015695fe69390ac99b54184cf793f31c3452d174fcf41052ccb2ae211"
 				},
 				{
 					"type": "file",
-					"url": "https://github.com/manga-download/hakuneko/releases/download/v6.1.7/hakuneko-desktop_6.1.7_linux_arm64.deb",
+					"url": "https://github.com/manga-download/hakuneko/releases/download/nightly-20200705.1/hakuneko-desktop_8.3.4_linux_arm64.deb",
 					"only-arches": [ "aarch64" ],
-					"sha256": "3cdff4e505293e1815b3dd465e64dceeccdc6532f45f3685830b186f38f3f6be"
+					"sha256": "5e4b992b58a67ddac96410975e10577befe67479c1c2b3d12b2bcbaf6f6c003a"
 				},
 				{
 					"type": "script",
